@@ -171,7 +171,7 @@
 		61299B3609CB04E000B7442F /* Sparkle.h in Headers */ = {isa = PBXBuildFile; fileRef = 61299B3509CB04E000B7442F /* Sparkle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		612DCBAF0D488BC60015DBEA /* SUUpdatePermissionPrompt.h in Headers */ = {isa = PBXBuildFile; fileRef = 612DCBAD0D488BC60015DBEA /* SUUpdatePermissionPrompt.h */; settings = {ATTRIBUTES = (); }; };
 		612DCBB00D488BC60015DBEA /* SUUpdatePermissionPrompt.m in Sources */ = {isa = PBXBuildFile; fileRef = 612DCBAE0D488BC60015DBEA /* SUUpdatePermissionPrompt.m */; };
-		6158A1C5137904B300487EC1 /* SUUpdaterPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6158A1C4137904B300487EC1 /* SUUpdaterPrivate.h */; };
+		6158A1C5137904B300487EC1 /* SUUpdaterPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6158A1C4137904B300487EC1 /* SUUpdaterPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		615AE3D00D64DC40001CA7BD /* SUModelTranslation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 615AE3CF0D64DC40001CA7BD /* SUModelTranslation.plist */; };
 		618FA5010DAE88B40026945C /* SUInstaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 618FA4FF0DAE88B40026945C /* SUInstaller.h */; settings = {ATTRIBUTES = (); }; };
 		618FA5020DAE88B40026945C /* SUInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 618FA5000DAE88B40026945C /* SUInstaller.m */; };
@@ -1788,6 +1788,7 @@
 				5AB8F187214D564C00A1187F /* precomp_data.h in Headers */,
 				5AB8F18F214D564C00A1187F /* sc.h in Headers */,
 				721D5B5B25C6940400D23BEA /* SUFlatPackageUnarchiver.h in Headers */,
+				6158A1C5137904B300487EC1 /* SUUpdaterPrivate.h in Headers */,
 				5AB8F181214D564C00A1187F /* sha512.h in Headers */,
 				61299B3609CB04E000B7442F /* Sparkle.h in Headers */,
 				34074B9F1FEABD5A001CB3A5 /* SPUDownloadData.h in Headers */,
@@ -1839,7 +1840,6 @@
 				7205C4311E1215AD00E370AE /* SUUpdatePermissionResponse.h in Headers */,
 				61B5F8ED09C4CE3C00B25A18 /* SUUpdater.h in Headers */,
 				72316BE61E1087060039EFD9 /* SUUpdaterDelegate.h in Headers */,
-				6158A1C5137904B300487EC1 /* SUUpdaterPrivate.h in Headers */,
 				729924731DF3478A00DBCDF5 /* SUUpdateValidator.h in Headers */,
 				61A354550DF113C70076ECB1 /* SUUserInitiatedUpdateDriver.h in Headers */,
 				61A2259E0D1C495D00430CCD /* SUVersionComparisonProtocol.h in Headers */,
