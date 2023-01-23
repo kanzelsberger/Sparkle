@@ -151,7 +151,7 @@
 		5D1AF59A0FD767E50065DB48 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1AF5990FD767E50065DB48 /* libz.dylib */; };
 		5D1AF82B0FD768180065DB48 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1AF5990FD767E50065DB48 /* libz.dylib */; };
 		5F1510A21C96E591006E1629 /* testnamespaces.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5F1510A11C96E591006E1629 /* testnamespaces.xml */; };
-		610134730DD250470049ACDF /* SUUpdateDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 610134710DD250470049ACDF /* SUUpdateDriver.h */; settings = {ATTRIBUTES = (); }; };
+		610134730DD250470049ACDF /* SUUpdateDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 610134710DD250470049ACDF /* SUUpdateDriver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		610134740DD250470049ACDF /* SUUpdateDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 610134720DD250470049ACDF /* SUUpdateDriver.m */; };
 		6101347B0DD2541A0049ACDF /* SUProbingUpdateDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 610134790DD2541A0049ACDF /* SUProbingUpdateDriver.h */; settings = {ATTRIBUTES = (); }; };
 		6101347C0DD2541A0049ACDF /* SUProbingUpdateDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6101347A0DD2541A0049ACDF /* SUProbingUpdateDriver.m */; };
@@ -206,7 +206,7 @@
 		61B5FCDF09C52A9F00B25A18 /* SUUpdateAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B5FCA009C5228F00B25A18 /* SUUpdateAlert.h */; settings = {ATTRIBUTES = (); }; };
 		61B93A3C0DD02D7000DCD2F8 /* SUUIBasedUpdateDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B93A390DD02D6400DCD2F8 /* SUUIBasedUpdateDriver.h */; settings = {ATTRIBUTES = (); }; };
 		61B93A3D0DD02D7000DCD2F8 /* SUUIBasedUpdateDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B93A3A0DD02D6400DCD2F8 /* SUUIBasedUpdateDriver.m */; };
-		61B93B270DD0FDD300DCD2F8 /* SUAutomaticUpdateDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B93B250DD0FDD300DCD2F8 /* SUAutomaticUpdateDriver.h */; settings = {ATTRIBUTES = (); }; };
+		61B93B270DD0FDD300DCD2F8 /* SUAutomaticUpdateDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B93B250DD0FDD300DCD2F8 /* SUAutomaticUpdateDriver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61B93B280DD0FDD300DCD2F8 /* SUAutomaticUpdateDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B93B260DD0FDD300DCD2F8 /* SUAutomaticUpdateDriver.m */; };
 		61B93C090DD112FF00DCD2F8 /* SUScheduledUpdateDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B93C070DD112FF00DCD2F8 /* SUScheduledUpdateDriver.h */; settings = {ATTRIBUTES = (); }; };
 		61B93C0A0DD112FF00DCD2F8 /* SUScheduledUpdateDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B93C080DD112FF00DCD2F8 /* SUScheduledUpdateDriver.m */; };
@@ -214,7 +214,7 @@
 		61EF67560E25B58D00F754E0 /* SUHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EF67550E25B58D00F754E0 /* SUHost.m */; };
 		61EF67590E25C5B400F754E0 /* SUHost.h in Headers */ = {isa = PBXBuildFile; fileRef = 61EF67580E25C5B400F754E0 /* SUHost.h */; };
 		61F83F720DBFE140006FDD30 /* SUBasicUpdateDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F83F700DBFE137006FDD30 /* SUBasicUpdateDriver.m */; };
-		61F83F740DBFE141006FDD30 /* SUBasicUpdateDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 61F83F6F0DBFE137006FDD30 /* SUBasicUpdateDriver.h */; settings = {ATTRIBUTES = (); }; };
+		61F83F740DBFE141006FDD30 /* SUBasicUpdateDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 61F83F6F0DBFE137006FDD30 /* SUBasicUpdateDriver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61FA52880E2D9EA400EF58AD /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* Sparkle.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		7205C4311E1215AD00E370AE /* SUUpdatePermissionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7205C42F1E1215AD00E370AE /* SUUpdatePermissionResponse.h */; };
 		7205C4321E1215AD00E370AE /* SUUpdatePermissionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7205C4301E1215AD00E370AE /* SUUpdatePermissionResponse.m */; };
@@ -1778,8 +1778,11 @@
 				5AB8F185214D564C00A1187F /* ed25519.h in Headers */,
 				5AB8F184214D564C00A1187F /* fe.h in Headers */,
 				A3AD648D24D283F400058938 /* SUGlobalUpdateLock.h in Headers */,
+				61B93B270DD0FDD300DCD2F8 /* SUAutomaticUpdateDriver.h in Headers */,
 				72E1D7E325A3E3AD0001BA6D /* SULegacyWebView.h in Headers */,
+				61F83F740DBFE141006FDD30 /* SUBasicUpdateDriver.h in Headers */,
 				5AB8F18A214D564C00A1187F /* fixedint.h in Headers */,
+				610134730DD250470049ACDF /* SUUpdateDriver.h in Headers */,
 				5AB8F18B214D564C00A1187F /* ge.h in Headers */,
 				72E1D7DE25A3E3AD0001BA6D /* SUWebViewCommon.h in Headers */,
 				5AB8F187214D564C00A1187F /* precomp_data.h in Headers */,
@@ -1799,8 +1802,6 @@
 				61B5FC7009C51F4A00B25A18 /* SUAppcastItem.h in Headers */,
 				72316BDE1E0E17910039EFD9 /* SUApplicationInfo.h in Headers */,
 				6120721209CC5C4B007FE0F6 /* SUAutomaticUpdateAlert.h in Headers */,
-				61B93B270DD0FDD300DCD2F8 /* SUAutomaticUpdateDriver.h in Headers */,
-				61F83F740DBFE141006FDD30 /* SUBasicUpdateDriver.h in Headers */,
 				5D06E9390FD69271005AE3F6 /* SUBinaryDeltaUnarchiver.h in Headers */,
 				72316BD91E0E17180039EFD9 /* SUBundleIcon.h in Headers */,
 				61B078CE15A5FB6100600039 /* SUCodeSigningVerifier.h in Headers */,
@@ -1834,7 +1835,6 @@
 				722589DA1E0B19F4005EA0B9 /* SUUnarchiverNotifier.h in Headers */,
 				722589D71E0AD86B005EA0B9 /* SUUnarchiverProtocol.h in Headers */,
 				61B5FCDF09C52A9F00B25A18 /* SUUpdateAlert.h in Headers */,
-				610134730DD250470049ACDF /* SUUpdateDriver.h in Headers */,
 				612DCBAF0D488BC60015DBEA /* SUUpdatePermissionPrompt.h in Headers */,
 				7205C4311E1215AD00E370AE /* SUUpdatePermissionResponse.h in Headers */,
 				61B5F8ED09C4CE3C00B25A18 /* SUUpdater.h in Headers */,
