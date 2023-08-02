@@ -160,6 +160,7 @@ static BOOL decodeStatus(NSCoder *decoder, NSString *key, SUSigningInputStatus *
     if (self) {
         _dsaPubKey = maybeDsa;
         if (maybeEd25519 != nil) {
+            SULog(SULogLevelInfo, @"Decoding: %@", maybeEd25519);
             NSData *ed = nil;
             _ed25519PubKeyStatus = decode(maybeEd25519, &ed);
             if (ed) {
