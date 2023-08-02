@@ -173,7 +173,7 @@ static BOOL decodeStatus(NSCoder *decoder, NSString *key, SUSigningInputStatus *
             }
 
             if (_ed25519PubKeyStatus == SUSigningInputStatusInvalid) {
-                SULog(SULogLevelError, @"The provided EdDSA key could not be decoded: %@", maybeEd25519);
+                SULog(SULogLevelError, @"The provided EdDSA key could not be decoded (%@).", maybeEd25519);
             }
         }
     }
